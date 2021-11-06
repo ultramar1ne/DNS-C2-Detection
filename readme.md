@@ -1,14 +1,17 @@
 # CS248
-## to do:
-use "bloomFilter" or sth. to "whiteList"
-### Modeling!
-### Training!
+## Doing
+### Optimize
+use "bloomFilter" or sth. to "white List"
+### Modeling && Training!
 
 
-## doing: Feature Generation
-### Data:
+## To Do:
+
+## Finished 
+### Feature Generation
+#### Data:
 from [link](https://data.mendeley.com/datasets/mzn9hvdcxg/2)
-### Reference:
+#### Reference:
 from [DNS_iFor](https://ieeexplore.ieee.org/document/8717806)
 1. Total count of characters in FQDN 
 2. Count of characters in sub-domain

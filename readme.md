@@ -1,7 +1,8 @@
 # CS248
 ## to do:
 use "bloomFilter" or sth. to "whiteList"
-
+### Modeling!
+### Training!
 
 
 ## doing: Feature Generation

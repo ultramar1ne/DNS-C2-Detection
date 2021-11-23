@@ -1,4 +1,4 @@
-# CS248
+# CS240
 ## 1.Doing
 ### 1.1 Training&&Optimize!
 EE,1cSVM,isoForest: (time:sec)

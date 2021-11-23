@@ -31,11 +31,11 @@ def generate_features(input_filename="dataset/binary/dtqbc-b-train.csv", output_
     mal_counter, heal_counter = 0, 0
     for item in reader:
         if item[1] == '0':
-            if heal_counter < 5:
-                print("healthy", item[0])
+            if heal_counter < 3:
+                print("benign", item[0])
             heal_counter += 1
         if item[1] == '1':
-            if mal_counter < 5:
+            if mal_counter < 3:
                 print("malicious", item[0])
             mal_counter += 1
     csvFile.close()

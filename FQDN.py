@@ -1,5 +1,7 @@
 import math
 
+from numpy import reshape
+
 
 class FQDN:
     def total_characters_counter(self, fqdn: str):
@@ -61,7 +63,7 @@ class FQDN:
         lists.sort(key=lambda x: len(x))
         return len(lists[-1])
 
-    def __init__(self, fqdn, class_0_1):  # todo:我不会python的“反射”
+    def __init__(self, fqdn, class_0_1='?'):  # todo:我不会python的“反射” ； 没有处理“？”
         self.name = fqdn
         self.max_label_legnth = self.max_label_length_counter(fqdn)
         self.avg_label_legnth = self.avg_label_length_counter(fqdn)
@@ -74,3 +76,4 @@ class FQDN:
         self.class_0_1 = 0 if class_0_1 == '0' else 1  # todo:他给出了不同隧道工具的分类
         self.csv = [self.name[:-1], self.class_0_1, self.max_label_legnth, self.avg_label_legnth, self.labels_num,
                     self.digits_num, self.total_characters, self.upperclass_letters_num, self.entropy]
+        self.feat = reshape(self.csv[2:], (1, -1))

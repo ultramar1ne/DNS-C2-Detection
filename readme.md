@@ -7,12 +7,12 @@ For Test Set: err: 2149 right: 13853 rate 0.8657042869641295 Time: 36.1885414123
 For Test Set: err: 4626 right: 11376 rate 0.7109111361079865 Time: 62.57835841178894
 For Test Set: err: 2581 right: 13421 rate 0.8387076615423072 Time: 428.6734094619751
 ```
+### 1.2 real-time Detection System!
+use Python API to parse DNS.qname
 
 ## 2. To Do:
-### 2.1 Code Rivew
+### 2.1 Code Review
 ### 2.2 use Bloom-Filter? to "White List"
-### 2.3 real-time Detection System!
-golang√  gRPC?
 
 
 ## 3.Finished 
@@ -31,3 +31,4 @@ from [DNS_iFor](https://ieeexplore.ieee.org/document/8717806)
 8. average label length 
 
 ### 3.2 Modeling
+EE OCSVM IF

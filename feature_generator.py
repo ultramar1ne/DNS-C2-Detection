@@ -6,7 +6,7 @@ import csv
 
 import pandas as pd
 
-from FQDN import FQDN
+from FQDN_Resolver import FQDN
 
 
 def generate_features(input_filename="dataset/binary/dtqbc-b-train.csv", output_filename="new_features.csv"):

@@ -10,10 +10,12 @@ For Test Set: err: 2581 right: 13421 rate 0.8387076615423072 Time: 428.673409461
 ### 1.2 real-time Detection System!
 use Python API to parse DNS.qname
 
-## 2. To Do:
-### 2.1 Code Review
-### 2.2 use Bloom-Filter? to "White List"
+### 1.3 use Bloom-Filter? to "White List"
+dataSource [Cisco](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html)
+maybe more in https://hackertarget.com/top-million-site-list-download/
 
+## 2.To Do
+DataMining?
 
 ## 3.Finished 
 ### 3.1.Feature Generation
